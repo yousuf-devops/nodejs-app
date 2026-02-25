@@ -4,6 +4,7 @@ console.log(
   process.env.REACT_APP_DEV_REMOTE
 )
 
-export const API_BASE_URL = "http://3.80.25.188:8888/api/"
+// API config - production
+export const API_BASE_URL = "https://testing.talhasghar.site/api/"
 
 export const ACCESS_TOKEN_NAME = "x-auth-token"
